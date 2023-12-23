@@ -1,0 +1,24 @@
+{
+  "name": "jr-tent",
+  "version": "1.0.0",
+  "description": "this is a business app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [
+    "tent",
+    "jr"
+  ],
+  "author": "Rahul Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mdb": "^0.1.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
